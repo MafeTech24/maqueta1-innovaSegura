@@ -170,7 +170,17 @@ export function Layout({ children }: LayoutProps) {
             <p>
               © {new Date().getFullYear()} {siteConfig.brandName}. Todos los derechos reservados.
             </p>
-            <p>{siteConfig.developerCredit}</p>
+            <p className="sm:text-right">
+              {siteConfig.developerCredit}{" "}
+              <a
+                href={siteConfig.developerUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-white hover:text-[#E0004D] underline underline-offset-4 transition-colors"
+              >
+                {siteConfig.developerName}
+              </a>
+            </p>
           </div>
         </div>
       </footer>

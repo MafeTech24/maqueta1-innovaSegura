@@ -2,7 +2,7 @@ export const siteConfig = {
   brandName: "Innova Segura",
   tagline: "Academia de Higiene y Seguridad Laboral",
   location: "Córdoba, Argentina",
-  logoPath: "public/assets/aistudio/logo.png",
+  logoPath: "/assets/aistudio/logo.png",
   founder: {
     name: "[NOMBRE DE LA DIRECTORA]",
     title: "[Título profesional: Lic. / Ing. en Higiene y Seguridad en el Trabajo]",
