@@ -2,7 +2,7 @@ export const siteConfig = {
   brandName: "Innova Segura",
   tagline: "Academia de Higiene y Seguridad Laboral",
   location: "Córdoba, Argentina",
-  logoPath: "/assets/aistudio/image_4fce9dd2.png",
+  logoPath: "public/assets/aistudio/logo.png",
   founder: {
     name: "[NOMBRE DE LA DIRECTORA]",
     title: "[Título profesional: Lic. / Ing. en Higiene y Seguridad en el Trabajo]",
@@ -51,5 +51,7 @@ export const siteConfig = {
     youtubeUrl: "https://www.youtube.com/@innovasegura",
     hours: "Lunes a viernes de 9:00 a 18:00 hs (ARG)",
   },
-  developerCredit: "Sitio desarrollado por MafeTech",
+  developerCredit: "Sitio desarrollado por",
+  developerName: "MafeTech",
+  developerUrl: "https://www.mafetech.net",
 };
