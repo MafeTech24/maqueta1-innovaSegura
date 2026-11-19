@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-navy: #031E61;
+  --color-navy-deep: #021547;
+  --color-accent: #E0004D;
+  --color-accent-hover: #C20042;
+  --color-surface-light: #F7F8FC;
+  --color-surface-white: #FFFFFF;
+  --color-ink: #1B2440;
+  --color-ink-secondary: #4A5578;
+  --color-hairline: #E2E6F0;
+
+  --radius-card: 1.25rem;
+  --radius-panel: 1.5rem;
+  --radius-control: 0.75rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: var(--color-surface-white);
+  }
+
+  body {
+    font-size: 17px;
+    line-height: 1.65;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

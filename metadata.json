@@ -1,0 +1,6 @@
+{
+  "name": "Innova Segura — Academia de Higiene y Seguridad Laboral",
+  "description": "Cursos online en vivo, webinars y capacitaciones in company en Higiene y Seguridad laboral con normativa argentina, desde Córdoba para todo el país.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
