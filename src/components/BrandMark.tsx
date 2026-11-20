@@ -28,13 +28,13 @@ export function BrandMark({
         width={38}
         height={38}
         className={cn(
-          "h-9 w-9 rounded-full object-cover shrink-0 transition-transform duration-200 group-hover:scale-[1.03]",
+          "h-8 w-8 sm:h-9 sm:w-9 rounded-full object-cover shrink-0 transition-transform duration-200 group-hover:scale-[1.03]",
           inverted ? "ring-1 ring-white/25" : "ring-1 ring-[#031E61]/10"
         )}
       />
       <span
         className={cn(
-          "font-serif text-[21px] tracking-tight whitespace-nowrap shrink-0",
+          "font-serif text-[19px] sm:text-[21px] tracking-tight whitespace-nowrap shrink-0",
           inverted ? "text-white" : "text-[#031E61]"
         )}
       >

@@ -14,17 +14,17 @@ export function AboutPage() {
         path="/sobre-mi"
       />
 
-      <section className="bg-white pt-14 pb-16 sm:pt-20 sm:pb-24 border-b border-[#E2E6F0]">
+      <section className="bg-white pt-12 pb-14 sm:pt-20 sm:pb-24 border-b border-[#E2E6F0]">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl space-y-5">
+          <div className="max-w-3xl space-y-4 sm:space-y-5">
             <p className="inline-flex items-center gap-2.5 text-sm font-medium text-[#4A5578]">
               <span className="h-2 w-2 rounded-full bg-[#E0004D]" aria-hidden="true" />
               <span>Sobre mí · Dirección académica</span>
             </p>
-            <h1 className="font-serif text-[38px] sm:text-[50px] leading-[1.08] text-[#031E61]">
+            <h1 className="font-serif text-[32px] sm:text-[48px] leading-[1.08] text-[#031E61]">
               Enseñar prevención desde la experiencia real en el terreno
             </h1>
-            <p className="text-[18px] leading-relaxed text-[#4A5578]">
+            <p className="text-[16px] sm:text-[18px] leading-relaxed text-[#4A5578]">
               {siteConfig.founder.shortBio}
             </p>
           </div>
@@ -109,7 +109,7 @@ export function AboutPage() {
             ))}
           </div>
 
-          <div className="rounded-[24px] bg-[#031E61] text-white p-8 sm:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div className="rounded-[24px] bg-[#031E61] text-white p-6 sm:p-8 sm:p-10 flex flex-col md:flex-row md:items-center justify-between gap-5 sm:gap-6">
             <div className="space-y-2 max-w-xl">
               <h2 className="font-serif text-2xl sm:text-3xl text-white">
                 ¿Querés conocer los próximos cursos en vivo?
@@ -118,7 +118,7 @@ export function AboutPage() {
                 Revisá el calendario 2027 de febrero a diciembre y elegí la edición que mejor se adapte a tu etapa profesional.
               </p>
             </div>
-            <Button asChild size="lg">
+            <Button asChild size="lg" className="w-full md:w-auto shrink-0">
               <Link to="/cursos">
                 <span>Ver calendario 2027</span>
                 <ArrowRight className="h-4 w-4" aria-hidden="true" />

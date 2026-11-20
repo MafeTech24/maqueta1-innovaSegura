@@ -90,7 +90,7 @@ export function CourseDetailPage() {
             <span>Volver al calendario 2027</span>
           </Link>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
             <div className="lg:col-span-8 space-y-6">
               <p className="text-sm font-medium text-[#4A5578]">
                 <span className={isWebinar ? "text-[#E0004D] font-semibold" : "text-[#031E61] font-semibold"}>
@@ -100,11 +100,11 @@ export function CourseDetailPage() {
                 <span>{course.month}</span>
               </p>
 
-              <h1 className="font-serif text-[36px] sm:text-[46px] leading-[1.1] text-[#031E61]">
+              <h1 className="font-serif text-[32px] sm:text-[44px] lg:text-[46px] leading-[1.1] text-[#031E61]">
                 {course.title}
               </h1>
 
-              <p className="text-[18px] leading-[1.7] text-[#4A5578]">
+              <p className="text-[17px] sm:text-[18px] leading-[1.7] text-[#4A5578]">
                 {course.fullDescription}
               </p>
 
@@ -118,7 +118,8 @@ export function CourseDetailPage() {
               </div>
             </div>
 
-            <aside className="lg:col-span-4 rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-7 space-y-6">
+            {/* Sidebar — on mobile shows after text, on lg shows in right column */}
+            <aside className="lg:col-span-4 rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-6 sm:p-7 space-y-6">
               <div className="space-y-1 pb-5 border-b border-[#E2E6F0]">
                 <p className="text-sm text-[#4A5578]">Arancel</p>
                 <p className="font-serif text-3xl text-[#031E61] tabular-nums">

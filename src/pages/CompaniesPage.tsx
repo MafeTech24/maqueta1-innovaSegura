@@ -72,14 +72,14 @@ export function CompaniesPage() {
         </div>
       </section>
 
-      <section className="bg-white py-16 sm:py-24">
+      <section className="bg-white py-14 sm:py-24">
         <div className="mx-auto max-w-[1000px] px-4 sm:px-6 lg:px-8">
-          <div className="rounded-[24px] border border-[#E2E6F0] bg-[#F7F8FC] p-7 sm:p-10 lg:p-12 space-y-8">
+          <div className="rounded-[20px] sm:rounded-[24px] border border-[#E2E6F0] bg-[#F7F8FC] p-6 sm:p-10 lg:p-12 space-y-8">
             <div className="space-y-3 max-w-2xl">
-              <h2 className="font-serif text-3xl sm:text-4xl text-[#031E61]">
+              <h2 className="font-serif text-2xl sm:text-4xl text-[#031E61]">
                 Pedí una propuesta para tu empresa
               </h2>
-              <p className="text-[17px] text-[#4A5578]">
+              <p className="text-[16px] sm:text-[17px] text-[#4A5578]">
                 Completá los datos de tu organización y te enviamos un plan de capacitación y presupuesto a medida dentro de las próximas 48 horas hábiles.
               </p>
             </div>

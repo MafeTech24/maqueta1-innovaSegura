@@ -39,7 +39,7 @@ export function Layout({ children }: LayoutProps) {
       </a>
 
       <header className="sticky top-0 z-40 border-b border-[#E2E6F0] bg-white/95 backdrop-blur-sm">
-        <div className="mx-auto flex h-[68px] max-w-[1200px] items-center justify-between gap-8 px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-[64px] sm:h-[68px] max-w-[1200px] items-center justify-between gap-4 sm:gap-8 px-4 sm:px-6 lg:px-8">
           <BrandMark />
 
           <nav
@@ -167,7 +167,7 @@ export function Layout({ children }: LayoutProps) {
           </div>
 
           <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-sm text-white/65">
-            <p>
+            <p className="shrink-0">
               © {new Date().getFullYear()} {siteConfig.brandName}. Todos los derechos reservados.
             </p>
             <p className="sm:text-right">

@@ -93,8 +93,8 @@ export function ContactPage() {
         </div>
       </section>
 
-      <section className="bg-[#F7F8FC] py-16 sm:py-24">
-        <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+      <section className="bg-[#F7F8FC] py-14 sm:py-24">
+        <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-5 space-y-6">
             <div className="rounded-[20px] border border-[#E2E6F0] bg-white p-7 space-y-5">
               <h2 className="font-serif text-2xl text-[#031E61]">
@@ -159,7 +159,7 @@ export function ContactPage() {
             </div>
           </div>
 
-          <div className="lg:col-span-7 rounded-[24px] border border-[#E2E6F0] bg-white p-7 sm:p-10">
+          <div className="lg:col-span-7 rounded-[20px] sm:rounded-[24px] border border-[#E2E6F0] bg-white p-6 sm:p-10">
             <h2 className="font-serif text-3xl text-[#031E61] mb-6">
               Envianos tu mensaje
             </h2>
