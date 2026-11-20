@@ -46,7 +46,7 @@ export function CompaniesPage() {
               {companyServices.map((service) => (
                 <article
                   key={service.index}
-                  className="rounded-[20px] border border-[#E2E6F0] bg-white p-7 space-y-4"
+                  className="rounded-[20px] border border-[#E2E6F0] bg-white p-6 sm:p-7 space-y-4"
                 >
                   <span className="text-xs font-semibold tracking-wider text-[#E0004D] tabular-nums">
                     {service.index}

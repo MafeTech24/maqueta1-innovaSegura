@@ -44,7 +44,7 @@ export function Layout({ children }: LayoutProps) {
 
           <nav
             aria-label="Navegación principal"
-            className="hidden lg:flex items-center gap-7"
+            className="hidden lg:flex items-center gap-5 xl:gap-7"
           >
             {navItems.map((item) => (
               <NavLink
@@ -98,7 +98,7 @@ export function Layout({ children }: LayoutProps) {
               <p className="text-[15px] leading-relaxed text-white/75 max-w-sm">
                 Academia de capacitación en Higiene y Seguridad laboral. Cursos y webinars online en vivo con acompañamiento real y capacitación in company desde Córdoba para toda la Argentina.
               </p>
-              <div className="flex items-center gap-4 pt-1">
+              <div className="flex flex-wrap items-center gap-x-5 gap-y-3 pt-1">
                 <a
                   href={siteConfig.contact.instagramUrl}
                   target="_blank"
@@ -156,7 +156,7 @@ export function Layout({ children }: LayoutProps) {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Mail className="h-4 w-4 mt-1 shrink-0 text-[#E0004D]" aria-hidden="true" />
-                  <span>{siteConfig.contact.email}</span>
+                  <span className="break-all">{siteConfig.contact.email}</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <MessageCircle className="h-4 w-4 mt-1 shrink-0 text-[#E0004D]" aria-hidden="true" />

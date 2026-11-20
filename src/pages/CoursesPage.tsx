@@ -40,7 +40,7 @@ export function CoursesPage() {
             <div
               role="tablist"
               aria-label="Filtrar por modalidad"
-              className="inline-flex items-center gap-1 rounded-[14px] border border-[#E2E6F0] bg-[#F7F8FC] p-1.5 self-start lg:self-auto"
+              className="inline-flex flex-wrap items-center gap-1 rounded-[14px] border border-[#E2E6F0] bg-[#F7F8FC] p-1.5 self-start lg:self-auto"
             >
               {[
                 { id: "todos", label: "Todos" },

@@ -36,7 +36,7 @@ export function ResourcesPage() {
             {articles.map((article) => (
               <article
                 key={article.slug}
-                className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-white p-7 transition-all duration-200 hover:border-[#031E61]/30 hover:shadow-[0_10px_30px_rgba(3,30,97,0.06)]"
+                className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-white p-6 sm:p-7 transition-all duration-200 hover:border-[#031E61]/30 hover:shadow-[0_10px_30px_rgba(3,30,97,0.06)]"
               >
                 <div>
                   <p className="text-[13px] font-medium text-[#4A5578]">

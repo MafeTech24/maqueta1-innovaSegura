@@ -44,7 +44,7 @@ export function CourseCard({ course, onEnroll }: CourseCardProps) {
           </span>
         </div>
 
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex flex-wrap items-center justify-between gap-3">
           <Link
             to={`/cursos/${course.slug}`}
             className="inline-flex items-center gap-1.5 text-sm font-medium text-[#031E61] hover:text-[#E0004D] transition-colors whitespace-nowrap"

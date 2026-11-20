@@ -96,7 +96,7 @@ export function ContactPage() {
       <section className="bg-[#F7F8FC] py-14 sm:py-24">
         <div className="mx-auto max-w-[1200px] px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           <div className="lg:col-span-5 space-y-6">
-            <div className="rounded-[20px] border border-[#E2E6F0] bg-white p-7 space-y-5">
+            <div className="rounded-[20px] border border-[#E2E6F0] bg-white p-6 sm:p-7 space-y-5">
               <h2 className="font-serif text-2xl text-[#031E61]">
                 Canales de atención
               </h2>
@@ -141,7 +141,7 @@ export function ContactPage() {
               </div>
             </div>
 
-            <div className="rounded-[20px] bg-[#031E61] text-white p-7 space-y-4">
+            <div className="rounded-[20px] bg-[#031E61] text-white p-6 sm:p-7 space-y-4">
               <h2 className="font-serif text-2xl text-white">
                 Comunidad de WhatsApp
               </h2>

@@ -40,14 +40,14 @@ export function GuideDownloadBlock() {
   };
 
   return (
-    <div className="rounded-[20px] sm:rounded-[24px] bg-[#031E61] text-white p-7 sm:p-10 lg:p-12">
+    <div className="rounded-[20px] sm:rounded-[24px] bg-[#031E61] text-white p-6 sm:p-10 lg:p-12">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 lg:gap-10 items-center">
         <div className="lg:col-span-7 space-y-3 sm:space-y-4">
           <div className="inline-flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-white/75">
             <BookOpen className="h-4 w-4 text-[#E0004D]" aria-hidden="true" />
             <span>Recurso descargable sin costo</span>
           </div>
-          <h3 className="font-serif text-2xl sm:text-3xl sm:text-4xl leading-tight text-white">
+          <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl leading-tight text-white">
             Descargá la guía gratuita
           </h3>
           <p className="text-[16px] sm:text-[17px] leading-relaxed text-white/80 max-w-xl">

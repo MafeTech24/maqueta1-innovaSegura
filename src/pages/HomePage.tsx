@@ -133,9 +133,9 @@ export function HomePage() {
                 type="button"
                 onClick={() => setVideoOpen(true)}
                 aria-label="Reproducir video de presentación de Innova Segura"
-                className="group relative w-full min-h-[260px] sm:min-h-[300px] lg:min-h-[390px] rounded-[20px] sm:rounded-[24px] border border-[#E2E6F0] bg-[#031E61] p-5 sm:p-7 sm:p-8 text-left text-white flex flex-col justify-between overflow-hidden transition-transform duration-200 hover:-translate-y-0.5 cursor-pointer"
+                className="group relative w-full min-h-[260px] sm:min-h-[300px] lg:min-h-[390px] rounded-[20px] sm:rounded-[24px] border border-[#E2E6F0] bg-[#031E61] p-5 sm:p-8 text-left text-white flex flex-col justify-between overflow-hidden transition-transform duration-200 hover:-translate-y-0.5 cursor-pointer"
               >
-                <div className="flex items-center justify-between text-xs uppercase tracking-widest text-white/70">
+                <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-[11px] sm:text-xs uppercase tracking-widest text-white/70">
                   <span>Presentación de la academia</span>
                   <span className="tabular-nums">60–90 seg</span>
                 </div>
@@ -154,7 +154,7 @@ export function HomePage() {
                   </div>
                 </div>
 
-                <div className="pt-4 border-t border-white/15 flex items-center justify-between text-sm text-white/80">
+                <div className="pt-4 border-t border-white/15 flex flex-wrap items-center justify-between gap-x-4 gap-y-2 text-sm text-white/80">
                   <span>Dirección docente · {siteConfig.founder.name}</span>
                   <span className="inline-flex items-center gap-1 text-white font-medium">
                     Ver avance
@@ -191,7 +191,7 @@ export function HomePage() {
           <Reveal>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-14 items-start">
               <div className="lg:col-span-5">
-                <div className="rounded-[24px] border border-[#E2E6F0] bg-[#F7F8FC] p-5 sm:p-6">
+                <div className="w-full max-w-md mx-auto lg:max-w-none rounded-[24px] border border-[#E2E6F0] bg-[#F7F8FC] p-5 sm:p-6">
                   <div className="aspect-[3/4] w-full rounded-[16px] border border-[#E2E6F0] bg-white flex flex-col items-center justify-center p-8 text-center space-y-4">
                     <div className="h-16 w-16 rounded-full bg-[#F7F8FC] border border-[#E2E6F0] flex items-center justify-center text-[#031E61]">
                       <UserCheck className="h-7 w-7" aria-hidden="true" />
@@ -249,11 +249,11 @@ export function HomePage() {
               </div>
             </div>
 
-            <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="mt-12 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
               {siteConfig.missionVisionValues.map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-7 space-y-3"
+                  className="rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-6 sm:p-7 space-y-3"
                 >
                   <h3 className="font-serif text-2xl text-[#031E61]">
                     {item.title}
@@ -286,7 +286,7 @@ export function HomePage() {
             </div>
 
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-7 space-y-3">
+              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-6 sm:p-7 space-y-3">
                 <Video className="h-6 w-6 text-[#E0004D]" aria-hidden="true" />
                 <h3 className="font-serif text-2xl text-white">Clases en vivo</h3>
                 <p className="text-[15px] leading-relaxed text-white/75">
@@ -294,7 +294,7 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-7 space-y-3">
+              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-6 sm:p-7 space-y-3">
                 <MessageSquareText className="h-6 w-6 text-[#E0004D]" aria-hidden="true" />
                 <h3 className="font-serif text-2xl text-white">Feedback personal</h3>
                 <p className="text-[15px] leading-relaxed text-white/75">
@@ -302,7 +302,7 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-7 space-y-3">
+              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-6 sm:p-7 space-y-3">
                 <Scale className="h-6 w-6 text-[#E0004D]" aria-hidden="true" />
                 <h3 className="font-serif text-2xl text-white">Normativa argentina</h3>
                 <p className="text-[15px] leading-relaxed text-white/75">
@@ -310,7 +310,7 @@ export function HomePage() {
                 </p>
               </div>
 
-              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-7 space-y-3">
+              <div className="rounded-[20px] border border-white/15 bg-white/[0.04] p-6 sm:p-7 space-y-3">
                 <Award className="h-6 w-6 text-[#E0004D]" aria-hidden="true" />
                 <h3 className="font-serif text-2xl text-white">Certificado oficial</h3>
                 <p className="text-[15px] leading-relaxed text-white/75">
@@ -424,7 +424,7 @@ export function HomePage() {
                   </li>
                 </ul>
 
-                <div className="pt-4 flex flex-wrap items-center gap-4">
+                <div className="pt-4 flex flex-col xs:flex-row flex-wrap items-stretch xs:items-center gap-4">
                   <Button
                     type="button"
                     size="lg"
@@ -493,7 +493,7 @@ export function HomePage() {
               {articles.map((article) => (
                 <article
                   key={article.slug}
-                  className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-white p-7 transition-all duration-200 hover:border-[#031E61]/30 hover:shadow-[0_10px_30px_rgba(3,30,97,0.06)]"
+                  className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-white p-6 sm:p-7 transition-all duration-200 hover:border-[#031E61]/30 hover:shadow-[0_10px_30px_rgba(3,30,97,0.06)]"
                 >
                   <div>
                     <p className="text-[13px] font-medium text-[#4A5578]">
@@ -551,7 +551,7 @@ export function HomePage() {
               {testimonials.map((item) => (
                 <article
                   key={item.id}
-                  className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-7 space-y-6"
+                  className="flex flex-col justify-between rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-6 sm:p-7 space-y-6"
                 >
                   <p className="text-[16px] leading-relaxed text-[#1B2440]">
                     “{item.quote}”

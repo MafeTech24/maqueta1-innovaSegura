@@ -36,7 +36,7 @@ export function AboutPage() {
           <Reveal>
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
               <div className="lg:col-span-5">
-                <div className="rounded-[24px] border border-[#E2E6F0] bg-white p-6 space-y-5">
+                <div className="w-full max-w-md mx-auto lg:max-w-none rounded-[24px] border border-[#E2E6F0] bg-white p-5 sm:p-6 space-y-5">
                   <div className="aspect-[3/4] w-full rounded-[16px] border border-[#E2E6F0] bg-[#F7F8FC] flex flex-col items-center justify-center p-8 text-center space-y-4">
                     <div className="h-16 w-16 rounded-full bg-white border border-[#E2E6F0] flex items-center justify-center text-[#031E61]">
                       <UserCheck className="h-7 w-7" aria-hidden="true" />
@@ -69,7 +69,7 @@ export function AboutPage() {
                   <p key={idx}>{p}</p>
                 ))}
 
-                <div className="rounded-[20px] border border-[#E2E6F0] bg-white p-7 space-y-3 mt-8">
+                <div className="rounded-[20px] border border-[#E2E6F0] bg-white p-6 sm:p-7 space-y-3 mt-8">
                   <div className="flex items-center gap-2.5 text-[#031E61] font-medium">
                     <Award className="h-5 w-5 text-[#E0004D]" aria-hidden="true" />
                     <span>Formación y credenciales</span>
@@ -99,7 +99,7 @@ export function AboutPage() {
             {siteConfig.missionVisionValues.map((item) => (
               <div
                 key={item.title}
-                className="rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-7 space-y-3"
+                className="rounded-[20px] border border-[#E2E6F0] bg-[#F7F8FC] p-6 sm:p-7 space-y-3"
               >
                 <h2 className="font-serif text-2xl text-[#031E61]">{item.title}</h2>
                 <p className="text-[16px] leading-relaxed text-[#4A5578]">
@@ -109,7 +109,7 @@ export function AboutPage() {
             ))}
           </div>
 
-          <div className="rounded-[24px] bg-[#031E61] text-white p-6 sm:p-8 sm:p-10 flex flex-col md:flex-row md:items-center justify-between gap-5 sm:gap-6">
+          <div className="rounded-[24px] bg-[#031E61] text-white p-6 sm:p-8 lg:p-10 flex flex-col md:flex-row md:items-center justify-between gap-5 sm:gap-6">
             <div className="space-y-2 max-w-xl">
               <h2 className="font-serif text-2xl sm:text-3xl text-white">
                 ¿Querés conocer los próximos cursos en vivo?

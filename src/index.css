@@ -14,6 +14,8 @@
   --color-ink-secondary: #4A5578;
   --color-hairline: #E2E6F0;
 
+  --breakpoint-xs: 30rem;
+
   --radius-card: 1.25rem;
   --radius-panel: 1.5rem;
   --radius-control: 0.75rem;
@@ -27,10 +29,18 @@
     background-color: var(--color-surface-white);
   }
 
+  html, body {
+    overflow-x: clip;
+  }
+
   body {
     font-size: 16px;
     line-height: 1.65;
     overflow-x: hidden;
+  }
+
+  h1, h2, h3 {
+    overflow-wrap: break-word;
   }
 
   @media (min-width: 640px) {
